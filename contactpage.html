@@ -1,0 +1,62 @@
+<head>
+<style>
+
+</style>
+<link rel="stylesheet" 
+      type="text/css"
+      href="restaurantStyles.css" />
+</head>
+	  
+
+<body class="center">
+<div id="pageHeader">
+<h1>Cannon Fodder</h1>
+<hr />
+<div id="navBar">
+<span class="navBarItem"><a href="homepage.html">Home</a></span>
+<span class="navBarItem"><a href="menupage.html">Menu</a></span>
+<span class="navBarItem"><a href="contactpage.html">Contact Us</a></span>
+<hr />
+</div>
+</div>
+
+<div id="mainBody">
+
+<form action="fakePage.html" method="POST">
+    <span class="label">Name:</span> <input type="text" name="customerName" />
+	<br />
+    <span class="label">Email:</span> <input type="text" name="customerEmail" />
+	<br />
+    <span class="label">Phone:</span> <input type="text" name="customerPhone" />
+	<br />
+<span class="label">Reason for Inquiry:</span>
+<select name="reason">
+	<option value="Catering">Catering</option>
+	<option value="Private Party">Private Party</option>
+	<option value="Feedback">Feedback</option>
+	<option value="Other">Other</option>
+</select>
+	<br />
+    <span class="label">Additional Information: </span>
+	<br />
+	<textarea name="info" rows="4" cols="50"/></textarea>
+	<br />
+    <span class="label">Have you been to this restaurant?: </span><input type="radio" name="previousVisit" /> Yes
+	<input type="radio" name="previousVisit" /> No
+	<br />
+    <span class="label">Best Days to contact you:</span> <input type="checkbox" name="contactDay" value="M"> M
+	<input type="checkbox" name="contactDay" value="T"> T
+	<input type="checkbox" name="contactDay" value="W"> W
+	<input type="checkbox" name="contactDay" value="T"> T
+	<input type="checkbox" name="contactDay" value="F"> F
+	<br />
+	<input type="submit" value="Send Request">
+</form>
+
+</div>
+
+<div id="pageFooter">
+<p>101 Bacon Street, MN 69420</p>
+<p>555-867-5309</p>
+</div>
+</body>

@@ -1,0 +1,58 @@
+
+
+
+@font-face {
+	font-family: 'Quicksand', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')
+}
+
+h1 {font-family: 'Quicksand', sans-serif;
+
+}
+
+#pageHeader {
+	background-color: #DEB887;
+}
+
+#pageFooter {
+	font-style: italic;
+}
+
+#mainBody {
+	background-color: #FFF8DC;
+
+}
+body {
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+	
+}
+
+.label {
+	font-weight: bold;
+}
+
+.navBarItem {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+a:link {
+	color: #CD4C5C;
+}
+
+a:visited {
+	color: #800000;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration: none;
+}
