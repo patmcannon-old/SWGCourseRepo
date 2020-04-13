@@ -100,17 +100,14 @@ D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlo
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.Owin.Host.SystemWeb.xml
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.Owin.Security.xml
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.Owin.Security.Facebook.xml
-D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.Owin.Security.Cookies.xml
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.Owin.Security.Google.xml
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.Owin.Security.Twitter.xml
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.Owin.Security.OAuth.xml
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.csprojAssemblyReference.cache
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.csproj.CoreCompileInputs.cache
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.csproj.CopyComplete
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.dll
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.pdb
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.Migrations.init.resources
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.csproj.GenerateResource.cache
-D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.Migrations.posting.resources

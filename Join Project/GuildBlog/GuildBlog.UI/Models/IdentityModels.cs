@@ -29,5 +29,7 @@ namespace GuildBlog.UI.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Posting> Postings { get; set; }
     }
 }
