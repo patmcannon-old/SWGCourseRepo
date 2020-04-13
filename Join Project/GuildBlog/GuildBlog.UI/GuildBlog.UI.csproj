@@ -196,6 +196,10 @@
     <Compile Include="Migrations\202004131444225_init.designer.cs">
       <DependentUpon>202004131444225_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004131741117_posting.cs" />
+    <Compile Include="Migrations\202004131741117_posting.designer.cs">
+      <DependentUpon>202004131741117_posting.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\EF\GuildBlogEntities.cs" />
@@ -382,6 +386,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202004131444225_init.resx">
       <DependentUpon>202004131444225_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004131741117_posting.resx">
+      <DependentUpon>202004131741117_posting.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

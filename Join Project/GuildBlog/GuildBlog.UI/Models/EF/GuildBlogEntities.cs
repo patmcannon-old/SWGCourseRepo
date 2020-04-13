@@ -11,7 +11,7 @@ namespace GuildBlog.UI.Models.EF
         public GuildBlogEntities()
             : base("GuildBlog")
         {
-            public DbSet<Posting> Postings { get; set; }
-    }
+        }
+        public DbSet<Posting> Postings { get; set; }
     }
 }
