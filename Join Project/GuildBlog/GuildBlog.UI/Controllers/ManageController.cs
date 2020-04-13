@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using GuildBlog.UI.Models;
+using GuildBlog.MVC.Models;
 
-namespace GuildBlog.UI.Controllers
+namespace GuildBlog.MVC.Controllers
 {
     [Authorize]
     public class ManageController : Controller

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace GuildBlog.UI.Models
+namespace GuildBlog.MVC.Models
 {
     public class Posting
     {

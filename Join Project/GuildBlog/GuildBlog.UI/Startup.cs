@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(GuildBlog.UI.Startup))]
-namespace GuildBlog.UI
+[assembly: OwinStartupAttribute(typeof(GuildBlog.MVC.Startup))]
+namespace GuildBlog.MVC
 {
     public partial class Startup
     {

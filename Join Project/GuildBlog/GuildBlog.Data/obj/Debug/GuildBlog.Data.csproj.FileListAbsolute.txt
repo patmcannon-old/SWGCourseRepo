@@ -1,0 +1,6 @@
+C:\Users\Cosmos\Source\Repos\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.Data\obj\Debug\GuildBlog.Data.csprojAssemblyReference.cache
+C:\Users\Cosmos\Source\Repos\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.Data\obj\Debug\GuildBlog.Data.csproj.CoreCompileInputs.cache
+C:\Users\Cosmos\Source\Repos\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.Data\bin\Debug\GuildBlog.Data.dll
+C:\Users\Cosmos\Source\Repos\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.Data\bin\Debug\GuildBlog.Data.pdb
+C:\Users\Cosmos\Source\Repos\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.Data\obj\Debug\GuildBlog.Data.dll
+C:\Users\Cosmos\Source\Repos\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.Data\obj\Debug\GuildBlog.Data.pdb

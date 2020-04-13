@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using GuildBlog.UI.Models;
+using GuildBlog.MVC.Models;
 
-namespace GuildBlog.UI
+namespace GuildBlog.MVC
 {
     public partial class Startup
     {

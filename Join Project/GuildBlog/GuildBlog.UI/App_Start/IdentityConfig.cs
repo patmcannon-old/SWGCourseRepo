@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using GuildBlog.UI.Models;
+using GuildBlog.MVC.Models;
 
-namespace GuildBlog.UI
+namespace GuildBlog.MVC
 {
     public class EmailService : IIdentityMessageService
     {

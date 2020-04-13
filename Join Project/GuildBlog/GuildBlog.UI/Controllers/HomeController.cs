@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace GuildBlog.UI.Controllers
+namespace GuildBlog.MVC.Controllers
 {
     public class HomeController : Controller
     {

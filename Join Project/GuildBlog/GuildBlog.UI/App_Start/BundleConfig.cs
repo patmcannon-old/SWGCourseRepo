@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace GuildBlog.UI
+namespace GuildBlog.MVC
 {
     public class BundleConfig
     {

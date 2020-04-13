@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<GuildBlog.UI.Models.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<GuildBlog.MVC.Models.ApplicationDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(GuildBlog.UI.Models.ApplicationDbContext context)
+        protected override void Seed(GuildBlog.MVC.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

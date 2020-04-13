@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace GuildBlog.UI
+namespace GuildBlog.MVC
 {
     public class RouteConfig
     {
