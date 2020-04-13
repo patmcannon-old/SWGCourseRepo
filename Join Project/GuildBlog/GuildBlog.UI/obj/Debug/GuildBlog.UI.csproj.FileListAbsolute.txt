@@ -111,3 +111,4 @@ D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlo
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.pdb
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.Migrations.init.resources
 D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.csproj.GenerateResource.cache
+D:\User Data\Patrick Cannon\Documents\GitHub\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.Migrations.postingdate.resources

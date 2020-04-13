@@ -196,6 +196,10 @@
     <Compile Include="Migrations\202004131817257_init.designer.cs">
       <DependentUpon>202004131817257_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004131830394_postingdate.cs" />
+    <Compile Include="Migrations\202004131830394_postingdate.designer.cs">
+      <DependentUpon>202004131830394_postingdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Posting.cs" />
@@ -381,6 +385,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202004131817257_init.resx">
       <DependentUpon>202004131817257_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004131830394_postingdate.resx">
+      <DependentUpon>202004131830394_postingdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
