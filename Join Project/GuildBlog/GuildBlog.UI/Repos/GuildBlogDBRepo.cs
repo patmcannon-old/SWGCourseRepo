@@ -23,6 +23,7 @@ namespace GuildBlog.MVC.Repos
         public void AddPosting(Posting posting)
         {
             repo.Postings.Add(posting);
+            repo.SaveChanges();
         }
         public void EditPosting(Posting posting)
         {

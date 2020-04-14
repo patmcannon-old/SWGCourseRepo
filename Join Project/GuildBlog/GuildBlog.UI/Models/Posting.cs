@@ -14,5 +14,6 @@ namespace GuildBlog.MVC.Models
         public string PostingAuthor { get; set; }
         [AllowHtml]
         public string PostingBody { get; set; }
+        public string Hashtag { get; set; }
     }
 }
