@@ -18,6 +18,7 @@ namespace GuildBlog.MVC.Repos
 
         public List<Posting> GetPostings()
         {
+            repo = new ApplicationDbContext();
             return repo.Postings.ToList();
         }
         public void AddPosting(Posting posting)
