@@ -1,4 +1,4 @@
-﻿@model List<GuildBlog.MVC.Models.Posting>
+﻿@model List<GuildBlog.MVC.Models.ViewModels.PostingVM>
 @{
     ViewBag.Title = "Home Page";
 }
@@ -11,10 +11,15 @@
 @foreach (var post in Model)
 {
     <div>
-        <h4>@post.PostingTitle</h4>
-        <p>@post.PostingAuthor</p>
-        <p>@post.PostingBody</p>
-        <br />
+        <h4>@post.Posting.PostingTitle</h4>
+        <p style="margin-bottom:0px">@post.Posting.PostingAuthor</p>
+        <div class="row">
+            @for (int i = 0; i < post.Hashtags.Count; i++)
+            {
+                <p>@Html.ActionLink(@post.Hashtags[i], "Hashtag", "Home", new { Hashtag = post.Hashtags[i] }, new { @class = "small" })&nbsp;</p>
+            }
+        </div>
+        <p>@Html.Raw(@post.Posting.PostingBody)</p>
         <br />
     </div>
 }

@@ -228,3 +228,4 @@ D:\User Data\Patrick Cannon\Desktop\Repo\SWGCourseRepo\Join Project\GuildBlog\Gu
 D:\User Data\Patrick Cannon\Desktop\Repo\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.MVC.csproj.CopyComplete
 D:\User Data\Patrick Cannon\Desktop\Repo\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.dll
 D:\User Data\Patrick Cannon\Desktop\Repo\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.pdb
+C:\Users\Cosmos\Source\Repos\SWGCourseRepo\Join Project\GuildBlog\GuildBlog.UI\obj\Debug\GuildBlog.UI.Migrations.Hashtag.resources

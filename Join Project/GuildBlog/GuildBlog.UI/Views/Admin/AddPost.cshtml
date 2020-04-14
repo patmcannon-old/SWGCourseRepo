@@ -1,0 +1,26 @@
+﻿@model GuildBlog.MVC.Models.Posting
+@{
+    ViewBag.Title = "AddPost";
+}
+
+<h2>AddPost</h2>
+
+@using (Html.BeginForm())
+{
+    <label class="control-label" for="PostingTitle">
+        Title:
+    </label>
+    @Html.TextBoxFor(x => x.PostingTitle)
+    <label class="control-label" for="PostingTitle">
+        Hashtag:
+    </label>
+    @Html.TextBoxFor(x => x.Hashtag)
+    <br />
+    @Html.TextAreaFor(x => x.PostingBody)
+    <div class="row">
+        <button type="submit" class="btn btn-outline-primary">
+            Post
+        </button>
+        @Html.ActionLink("Cancel", "Index", "Home", null, new { @class = "btn btn-outline-primary" })
+    </div>
+}
