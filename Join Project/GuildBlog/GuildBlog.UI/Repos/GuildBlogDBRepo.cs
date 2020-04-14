@@ -14,11 +14,10 @@ namespace GuildBlog.MVC.Repos
 {
     public class GuildBlogDBRepo : IBlogPost
     {
-        public ApplicationDbContext repo { get; set; }
+        ApplicationDbContext repo = new ApplicationDbContext();
 
         public List<Posting> GetPostings()
         {
-            repo = new ApplicationDbContext();
             return repo.Postings.ToList();
         }
         public void AddPosting(Posting posting)
