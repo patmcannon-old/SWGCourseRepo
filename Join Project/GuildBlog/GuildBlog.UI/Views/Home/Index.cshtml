@@ -8,18 +8,67 @@
     <p class="lead">Anything and everything regarding The Software Guild and its Apprentices can be known by simply reading Amir's Blog! All the juicy secrets, dramas, and mishaps are all shared here, for your reading pleasure, from Amir's own eyes!!! Please Work!</p>
 
 </div>
-@foreach (var post in Model)
+@if (User.Identity.IsAuthenticated && User.IsInRole("Owner"))
 {
-    <div>
-        <h4>@post.Posting.PostingTitle</h4>
-        <p style="margin-bottom:0px">@post.Posting.PostingAuthor</p>
-        <div class="row">
-            @for (int i = 0; i < post.Hashtags.Count; i++)
-            {
-                <p>@Html.ActionLink(@post.Hashtags[i], "Hashtag", "Home", new { Hashtag = post.Hashtags[i] }, new { @class = "small" })&nbsp;</p>
-            }
+    using (Html.BeginForm())
+    {
+        foreach (var post in Model)
+        {
+            <div>
+                <div class="row">
+                    <h4>
+                        @post.Posting.PostingTitle
+                    </h4>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Owner"))
+                    {
+                        using (Html.BeginForm())
+                        {
+                            @Html.ActionLink("Approve/Hide", "ApproveUpdate", "Home", new { PostingID = post.Posting.PostingID }, new { @class = "btn btn-outline-primary", @type = "submit" , @method="post"})
+                        }
+                    }
+                </div>
+                <p style="margin-bottom:0px">@post.Posting.PostingAuthor</p>
+                <div class="row">
+                    @for (int i = 0; i < post.Hashtags.Count; i++)
+                    {
+                        <p>@Html.ActionLink(@post.Hashtags[i], "Hashtag", "Home", new { Hashtag = post.Hashtags[i] }, new { @class = "small" })&nbsp;</p>
+                    }
+                </div>
+                <p>@Html.Raw(@post.Posting.PostingBody)</p>
+                <br />
+            </div>
+        }
+    }
+}
+else
+{
+    foreach (var post in Model.Where(x => x.Posting.IsApproved == true))
+    {
+        <div>
+            <div class="row">
+                <h4>
+                    @post.Posting.PostingTitle
+                </h4>
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Owner"))
+                {
+                    using (Html.BeginForm())
+                    {
+                        @Html.CheckBoxFor(m => m.FirstOrDefault(x => x.Posting.PostingID == post.Posting.PostingID).Posting.IsApproved)
+                        @Html.LabelFor(m => m.FirstOrDefault(x => x.Posting.PostingID == post.Posting.PostingID).Posting.IsApproved)
+                    }
+                }
+            </div>
+            <p style="margin-bottom:0px">
+                @post.Posting.PostingAuthor
+            </p>
+            <div class="row">
+                @for (int i = 0; i < post.Hashtags.Count; i++)
+                {
+                    <p>@Html.ActionLink(@post.Hashtags[i], "Hashtag", "Home", new { Hashtag = post.Hashtags[i] }, new { @class = "small" })&nbsp;</p>
+                }
+            </div>
+            <p>@Html.Raw(@post.Posting.PostingBody)</p>
+            <br />
         </div>
-        <p>@Html.Raw(@post.Posting.PostingBody)</p>
-        <br />
-    </div>
+    }
 }
