@@ -26,7 +26,31 @@ namespace GuildBlog.MVC.Controllers
             }
             return View(postings);
         }
+        [HttpGet]
+        public ActionResult ApproveUpdate(int PostingID)
+        {
+            Posting changedthing = repo.GetPostings().FirstOrDefault(x => x.PostingID == PostingID);
+            changedthing.PostingDate = DateTime.Today;
+            return View(changedthing);
+        }
+        [HttpPost]
+        public ActionResult ApproveUpdate(Posting posting)
+        {
+            posting = repo.GetPostings().FirstOrDefault(x => x.PostingID == posting.PostingID);
+            posting.IsApproved = !posting.IsApproved;
+            repo.EditPosting(posting);
 
+            List<PostingVM> posts = new List<PostingVM>();
+            List<Posting> list = repo.GetPostings();
+            foreach (var post in list)
+            {
+                PostingVM vm = new PostingVM();
+                vm.Posting = post;
+                vm.Hashtags = post.Hashtag.Split(' ').ToList();
+                posts.Add(vm);
+            }
+            return RedirectToAction("Index", posts);
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

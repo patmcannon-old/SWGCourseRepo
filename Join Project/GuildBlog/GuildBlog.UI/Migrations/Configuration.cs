@@ -1,6 +1,7 @@
 ﻿namespace GuildBlog.UI.Migrations
 {
     using GuildBlog.MVC.Models;
+    using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
     using System;
     using System.Data.Entity;
@@ -16,28 +17,13 @@
 
         protected override void Seed(GuildBlog.MVC.Models.ApplicationDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
-            //  to avoid creating duplicate seed data.
+            PasswordHasher hasher = new PasswordHasher();
 
             context.Roles.AddOrUpdate(
                 r => r.Name,
                 new IdentityRole { Name = "Owner" },
                 new IdentityRole { Name = "Admin" }
                 );
-            context.Users.AddOrUpdate(
-                new ApplicationUser
-                {
-                    Email = "JohnDoe@swg.com",
-                    EmailConfirmed = true,
-                    PhoneNumber = "5555555555",
-                    PhoneNumberConfirmed = true,
-                    TwoFactorEnabled = false,
-                    LockoutEnabled = false,
-                    AccessFailedCount = 100,
-                    UserName = "JohnDoe",
-                });
 
             context.Postings.AddOrUpdate(
                 new Posting

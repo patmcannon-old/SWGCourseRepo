@@ -10,6 +10,7 @@
     <label class="control-label" for="PostingTitle">
         Title:
     </label>
+    @Html.HiddenFor(x=>x.PostingID)
     @Html.TextBoxFor(x => x.PostingTitle)
     <label class="control-label" for="PostingTitle">
         Hashtag:
